@@ -382,7 +382,7 @@ rules['[full-height]'] = {
  */
 rules['body'] = {
 
-    // Convert node lists for sections and nav to arrays and concatenate to
+    // Convert node lists for sections and nav to arrays and concatenate to 
     // provide full Array or elements to reset when switching to mobile layout
     clear: Array.prototype.slice.call(sections).concat(Array.prototype.slice.call(nav)),
 
