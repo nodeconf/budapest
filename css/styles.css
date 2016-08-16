@@ -1472,11 +1472,6 @@ input[type='reset'].disabled {
   -ms-transform-origin: 300% 300%;
   transform-origin: 300% 300%;
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #hero .logo:before {
-    background-image: url("/assets/hero/sun@2x.png?v-1");
-  }
-}
 #hero .logo:hover:before {
   -webkit-transform: scale(1.2) translate3d(0, 0, 0);
   -moz-transform: scale(1.2) translate3d(0, 0, 0);
@@ -1690,11 +1685,6 @@ body.night #hero .cloud:after {
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20);
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #event .illustration {
-    background-image: url("/assets/illustrations/hex-city@2x.png?v-1");
-  }
 }
 @media (max-width: 600px) {
   #event .illustration {
@@ -2025,34 +2015,14 @@ section#categories h2 {
   background-image: url("/assets/photos/venue/01.jpg");
   margin-bottom: 20px;
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #venue .photo-venue.photo-venue-01 {
-    background-image: url("/assets/photos/venue/01@2x.jpg?v-1");
-  }
-}
 #venue .photo-venue.photo-venue-02 {
   background-image: url("/assets/photos/venue/02.jpg");
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #venue .photo-venue.photo-venue-02 {
-    background-image: url("/assets/photos/venue/02@2x.jpg?v-1");
-  }
 }
 #venue .photo-venue.photo-venue-03 {
   background-image: url("/assets/photos/venue/03.jpg");
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #venue .photo-venue.photo-venue-03 {
-    background-image: url("/assets/photos/venue/03@2x.jpg?v-1");
-  }
-}
 #venue .photo-venue.photo-venue-04 {
   background-image: url("/assets/photos/venue/04.jpg");
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  #venue .photo-venue.photo-venue-04 {
-    background-image: url("/assets/photos/venue/04@2x.jpg?v-1");
-  }
 }
 @media (max-width: 600px) {
   #venue ul.photos li {
@@ -2084,11 +2054,6 @@ section#getting-there a.map {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5) {
-  section#getting-there a.map {
-    background-image: url("/assets/maps/venue@2x.png?v-1");
-  }
 }
 section#getting-there a.map:hover {
   -webkit-transform: scale(1.05);
