@@ -1,3 +1,3 @@
 # NodeConf Budapest
 
-the website for http://budapest.nodeconf.com
+the website for http://nodeconf.risingstack.com
