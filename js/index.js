@@ -150,7 +150,7 @@ function init() {
  * @param {Boolean=} state
  */
 function toggle() {
-    var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
 
     var event;
 
